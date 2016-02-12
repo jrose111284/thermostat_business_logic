@@ -9,6 +9,6 @@ describe('Thermostat', function(){
   });
 
   it('will start at 20 degrees', function(){
-    expect(thermostat.temperature).toEqual(20);
+    expect(thermostat.getCurrentTemperature()).toEqual(20);
   });
 });
