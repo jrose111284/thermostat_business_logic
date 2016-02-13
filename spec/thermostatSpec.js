@@ -11,4 +11,9 @@ describe('Thermostat', function(){
   it('will start at 20 degrees', function(){
     expect(thermostat.getCurrentTemperature()).toEqual(20);
   });
+
+  it('increases in temperature with the up button', function() {
+    thermostat.up();
+    expect(thermostat.getCurrentTemperature()).toEqual(21);
+  });
 });
