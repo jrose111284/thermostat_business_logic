@@ -31,4 +31,4 @@ Thermostat.prototype.isPowerSavingModeOn = function() {
 
 Thermostat.prototype.switchPowerSavingModeOff = function() {
   this.powerSavingMode = false;
-}
+};
