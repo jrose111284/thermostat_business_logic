@@ -5,8 +5,8 @@ in terminal
 git clone git@github.com:jrose111284/thermostat_business_logic.git
 open SpecRunner.html
 ```
+open SpecRunner will run all test with jasmine
 
-I decided to redo this project just for a reminder on how to do jasmine tests.
-This thermostat function can turn temperature up and down 10 to 20 degress with power saving mode on.
-When power saving mode is off, it can go up to 32 degress.
-It can also reset back to 20 degress with the reset function.
+in the bowser you can change the temp up and down, set psm on with stops the temp going over 25, psm off will allow you to turn it up to 32 degrees, and rest will set temp back to 25 degress,
+
+This project was a refesh on how to use jquery.
